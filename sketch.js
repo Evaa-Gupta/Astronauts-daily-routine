@@ -1,16 +1,16 @@
 
 function preload() {
     //load the images here
-    bg=loadImage("images/iss.png")
-    sleep=loadImage("images/sleep.png")
-    brush=loadImage("images/brush.png")
+    bg=loadImage("iss.png")
+    sleep=loadImage("sleep.png")
+    brush=loadImage("brush.png")
 
-    gym=loadAnimation("images/gym12.png","images/gym11.png")
-    gym2=loadAnimation("images/gym1.png","images/gym2.png")
-    eat=loadAnimation("images/eat1.png","images/eat2.png")
-    drink=loadAnimation("images/drink1.png","images/drink2.png")
-    move=loadAnimation("images/move.png","images/move1.png")
-    bath=loadAnimation("images/bath1.png","images/bath2.png")
+    gym=loadAnimation("gym12.png","gym11.png")
+    gym2=loadAnimation("gym1.png","gym2.png")
+    eat=loadAnimation("eat1.png","eat2.png")
+    drink=loadAnimation("drink1.png","drink2.png")
+    move=loadAnimation("move.png","move1.png")
+    bath=loadAnimation("bath1.png","bath2.png")
 }
 
 function setup(){
