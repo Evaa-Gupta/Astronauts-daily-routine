@@ -9,7 +9,7 @@ function preload() {
     gym2=loadAnimation("gym1.png","gym2.png")
     eat=loadAnimation("eat1.png","eat2.png")
     drink=loadAnimation("drink1.png","drink2.png")
-    move=loadAnimation("move.png","move1.png")
+    move=loadAnimation("move.png")
     bath=loadAnimation("bath1.png","bath2.png")
 }
 
@@ -81,8 +81,8 @@ if(keyCode=="66"){
 if(keyCode=="77"){
     astronaut.addAnimation("moving",move)
     astronaut.changeAnimation("moving",move)
-    astronaut.velocityX=0
-    astronaut.velocityY=0
+    astronaut.velocityX=1
+    astronaut.velocityY=1
 }
 drawSprites();
 }
